@@ -1,8 +1,3 @@
-    ['wine'] = {
-        label = 'Wine',
-        weight = 500,
-    },
-
     ['wine_bottle'] = {
         label = 'Wine Bottle',
         weight = 500,
