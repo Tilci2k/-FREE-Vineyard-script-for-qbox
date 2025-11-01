@@ -1,0 +1,22 @@
+    ['wine'] = {
+        label = 'Wine',
+        weight = 500,
+    },
+
+    ['wine_bottle'] = {
+        label = 'Wine Bottle',
+        weight = 500,
+        client = {
+            status = { thirst = 200000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+            usetime = 2500,
+            cancel = true,
+            notification = 'You drank some refreshing wine'
+        }
+    },
+
+    ['grape_mash'] = {
+        label = 'Grape mesh',
+        weight = 10,
+    },
